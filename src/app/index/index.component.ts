@@ -14,7 +14,6 @@ export class IndexComponent implements OnInit {
       navbarLinks.classList.toggle('active')
     })
     // ...
-    fetch('https://ayoub-mabrouk-python-flask.onrender.com/hello') .then(response => console.log("hello Site fetched"))
   }
 
 
