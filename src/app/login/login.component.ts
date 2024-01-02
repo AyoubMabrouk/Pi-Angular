@@ -16,8 +16,8 @@ export class LoginComponent implements OnInit{
     }
   userSignIn(){
     //window.location.href = '/(sidebar:index)';
-    console.log("------------",this.username123,"---------",this.password123)
-    if(this.username123=="admin"&&this.password123=="123456"){
+    //console.log("------------",this.username123,"---------",this.password123)
+    if(this.username123=="visitor"&&this.password123=="visitor"){
       window.location.href = '/(sidebar:index)';
     }
     else{
